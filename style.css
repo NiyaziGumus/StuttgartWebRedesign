@@ -1,19 +1,23 @@
 /* Global Styles */
 
+:root {
+    --main-font-size: 16px; /* Default font size */
+  }
+  
+  
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.html {
-    font-size: 16px;
-}
 
 body {
+    font-size: var(--main-font-size);
     font-family: 'Roboto', sans-serif;
-
+   
 }
+
 
 a {
     text-decoration: none;
