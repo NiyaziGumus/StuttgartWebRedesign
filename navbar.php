@@ -31,9 +31,9 @@
         </form>
       </div>
       <div class="col d-flex justify-content-center my-3 me-4">
-        <a class="navbar-brand mx-1" href="#"><i class="bi bi-sun-fill" style="font-size: 1.3rem;"></i></a>
-        <a class="navbar-brand mx-1" href="#"><i class="bi bi-moon-stars-fill" style="font-size: 1.2rem;"></i></a>
-        <a class="navbar-brand mx-1" href="#"><img src="img/farbeIkon.svg" alt="Logo" width="20" height="24"></a>
+        <a class="navbar-brand light-theme mx-1" href="#"><i class="bi bi-sun-fill" style="font-size: 1.3rem;"></i></a>
+        <a class="navbar-brand dark-theme mx-1" href="#"><i class="bi bi-moon-stars-fill" style="font-size: 1.2rem;"></i></a>
+        <a class="navbar-brand custom-theme mx-1" href="#"><img src="img/farbeIkon.svg" alt="Logo" width="20" height="24"></a>
         <div class="vr mx-3 "></div>
         <a class="navbar-brand mx-1 font-size-down"><img src="img/fontSizeDown.svg" alt="A-" width="18" height="18"></a>
         <a class="navbar-brand mx-1 font-size-up"><img src="img/fontSizeUp.svg" alt="A+" width="24" height="24"></a>
