@@ -1,5 +1,66 @@
 /* Global Styles */
 
+/* Açık mod için link renkleri, Bootstrap zaten bunları sağlar */
+.dynamic-link {
+    color: #212529 !important; /* Varsayılan renk (koyu) */
+  }
+  
+  [data-bs-theme='dark'] .dynamic-link {
+    color: #f8f9fa !important; /* Koyu modda renk (açık) */
+  }
+
+
+.arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid black; /* Okun rengi */
+    vertical-align: auto;
+  }
+  
+  [data-bs-theme='dark'] .arrow {
+    border-left: 10px solid white; /* Koyu modda okun rengi beyaz */
+  }
+
+[data-bs-theme='dark'] .bg-warning {
+  background-color: #784800 !important; /* Örnek koyu tema uyarı rengi */
+}
+
+[data-bs-theme='dark'] .text-warning {
+  color: #784800!important; /* Örnek koyu tema uyarı metin rengi */
+}
+
+/* Koyu tema aktifken .btn-warning için */
+[data-bs-theme='dark'] .btn-warning {
+    background-color: #784800 !important; /* Daha koyu arka plan rengi */
+    border-color: #000 !important; /* Siyah çerçeve rengi */
+  }
+  
+  /* Buton üzerinde etkileşim olduğunda (hover, active, focus) */
+  [data-bs-theme='dark'] .btn-warning:hover {
+    background-color: #5a3600 !important; /* Hover durumunda arka plan rengi */
+    border-color: #000 !important; /* Hover durumunda siyah çerçeve rengi */
+  }
+  
+  [data-bs-theme='dark'] .btn-warning:active {
+    background-color: #402400 !important; /* Aktif durumda arka plan rengi */
+    border-color: #000 !important; /* Aktif durumda siyah çerçeve rengi */
+  }
+  
+  [data-bs-theme='dark'] .btn-warning:focus {
+    box-shadow: 0 0 0 0.25rem rgba(120, 72, 0, 0.5) !important; /* Odaklanma gölgesi, siyah yerine uyarı rengiyle uyumlu bir gölge kullanılabilir */
+  }
+
+  [data-bs-theme='dark'] .bg-dark {
+    background-color: #000 !important; /* Arka plan rengini siyah yap */
+  }
+  
+  :root[data-bs-theme='dark'] .fas {
+    color: #fff !important;
+  }
+
 :root {
     --main-font-size: 16px; /* Default font size */
   }
