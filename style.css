@@ -1,109 +1,183 @@
 /* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
-    --main-font-size: 16px; /* Default font size */
-  }
-  
-  
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  --main-font-size: 16px; /* Default font size */
+  --bs-warning: #ffb300;
 }
-
 
 body {
-    font-size: var(--main-font-size);
-    font-family: 'Roboto', sans-serif;
-   
+  font-size: var(--main-font-size);
+  font-family: 'Roboto', sans-serif;
 }
 
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+  cursor: pointer;
+}
+
+/* SVG Icon Styles */
+.svg-icon {
+  cursor: pointer;
+}
+
+[data-bs-theme='dark'] .svg-icon {
+  filter: invert(100%);
+}
+
+/* Dynamic Link "a" Styles */
+.dynamic-link {
+  color: #212529 !important;
+}
+
+[data-bs-theme='dark'] .dynamic-link {
+  color: #f8f9fa !important;
+}
+
+/* Arrow Styles */
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 10px solid black;
+  vertical-align: auto;
+}
+
+[data-bs-theme='dark'] .arrow {
+  border-left: 10px solid white;
+}
+
+/* Service Telefon Styles */
+[data-bs-theme='dark'] .bg-warning {
+  background-color: #784800 !important;
+}
+
+[data-bs-theme='dark'] .text-warning {
+  color: #784800 !important;
+}
+
+[data-bs-theme='dark'] .btn-warning {
+  background-color: #784800 !important;
+  border-color: #000 !important;
+}
+
+[data-bs-theme='dark'] .btn-warning:hover {
+  background-color: #5a3600 !important;
+  border-color: #000 !important;
+}
+
+[data-bs-theme='dark'] .btn-warning:active {
+  background-color: #402400 !important;
+  border-color: #000 !important;
+}
+
+[data-bs-theme='dark'] .btn-warning:focus {
+  box-shadow: 0 0 0 0.25rem rgba(120, 72, 0, 0.5) !important;
+}
+
+[data-bs-theme='dark'] .bg-dark {
+  background-color: #000 !important;
+}
+
+/* icons styles */
+
+:root[data-bs-theme='dark'] .fas {
+  color: #fff !important;
+}
+
+.icon:hover p {
+  text-decoration: underline;
 }
 
 
-/* carausel styles */
-
+/* Carousel Styles */
 .carousel-controls-custom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .carousel-indicators-custom {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .btn-indicator {
-    width: 20px;
-    height: 10px;
-    border-radius: 40%;
-    background-color: #b0b0b0;
-    border: none;
-
+  width: 20px;
+  height: 10px;
+  border-radius: 40%;
+  background-color: #b0b0b0;
+  border: none;
 }
 
 .btn-indicator:hover {
-    background-color: #555555;
+  background-color: #303030;
 }
 
 .btn-indicator.active {
-    background-color: #ffb300;
+  background-color: #555555;
 
 }
 
 .image-location {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
 }
 
 .carousel-controls-custom i {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-/* infobox styles */
+/* Infobox Styles */
 .infobox {
-    cursor: pointer;
-    overflow: hidden;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .infobox img {
-    transition: transform 0.5s ease;
-    filter: brightness(50%);
+  transition: transform 0.5s ease;
+  filter: brightness(50%);
 }
 
 .infobox:hover img {
-    transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .infobox:hover p {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* tips styles */
+/* Tips Styles */
 .custom-card {
-    cursor: pointer;
-    transition: transform 0.3s ease;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .custom-card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .custom-card a {
-    transition: text-decoration 0.3s ease;
+  transition: text-decoration 0.3s ease;
 }
 
 .custom-card:hover a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
