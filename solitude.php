@@ -1,10 +1,10 @@
 <?php
 $pageTitle = "Schloss Solitude | Stadt Stuttgart";
-include 'navbar.php';
-include 'carouselSolitude.html';
-include 'uberschriftSolitude.html';
-include 'uberUnsSolitude.html';   
-include 'nachrichtenSolitude.html';
-include 'serviceTelefon.html';
-include 'footer.html';
+include 'template/navbar.php';
+include 'template/carouselSolitude.html';
+include 'template/uberschriftSolitude.html';
+include 'template/uberUnsSolitude.html';   
+include 'template/nachrichtenSolitude.html';
+include 'template/serviceTelefon.html';
+include 'template/footer.html';
 ?>

@@ -1,13 +1,13 @@
 <?php
 $pageTitle = "Startseite | Stadt Stuttgart";
-include 'navbar.php';
-include 'carouselLandingPage.html';
-include 'icons.html';
-include 'nachrichtenLandingPage.html';
-include 'infoboxLandingPage.html';
-include 'tipsLandingPage.html';
-include 'serviceTelefon.html';
-include 'footer.html';
+include 'template/navbar.php';
+include 'template/carouselLandingPage.html';
+include 'template/icons.html';
+include 'template/nachrichtenLandingPage.html';
+include 'template/infoboxLandingPage.html';
+include 'template/tipsLandingPage.html';
+include 'template/serviceTelefon.html';
+include 'template/footer.html';
 ?>
 
 

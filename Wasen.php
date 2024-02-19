@@ -1,11 +1,11 @@
 <?php
 $pageTitle = "Wasen | Stadt Stuttgart";
-include 'navbar.php';
-include 'carouselWasen.html';
-include 'uberschriftWasen.html';
-include 'uberUnsWasen.html';  
-include 'nachrichtenWasen.html';
-include 'servicetelefon.html';
-include 'footer.html';
+include 'template/navbar.php';
+include 'template/carouselWasen.html';
+include 'template/uberschriftWasen.html';
+include 'template/uberUnsWasen.html';  
+include 'template/nachrichtenWasen.html';
+include 'template/servicetelefon.html';
+include 'template/footer.html';
 ?>
 

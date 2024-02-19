@@ -1,11 +1,11 @@
 <?php
 $pageTitle = "Bürgerbüro | Stadt Stuttgart";
-include 'navbar.php';
-include 'uberschriftBurgerburo.html';
-include 'uberUnsBurgerburo.html';
-include 'auflistungBurgerburo.html';
-include 'serviceBurgerburo.html';
-include 'serviceTelefon.html';
-include 'footer.html';
+include 'template/navbar.php';
+include 'template/uberschriftBurgerburo.html';
+include 'template/uberUnsBurgerburo.html';
+include 'template/auflistungBurgerburo.html';
+include 'template/serviceBurgerburo.html';
+include 'template/serviceTelefon.html';
+include 'template/footer.html';
 ?>
 

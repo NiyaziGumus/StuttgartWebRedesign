@@ -1,12 +1,12 @@
 <?php
 $pageTitle = "Behörden | Stadt Stuttgart";
-include 'navbar.php';
-include 'uberschriftBehorden.html';
-include 'auflistungBehorden.html';
-include 'icons.html';
-include 'serviceBehorden.html';   
-include 'servicetelefon.html';
-include 'footer.html';
+include 'template/navbar.php';
+include 'template/uberschriftBehorden.html';
+include 'template/auflistungBehorden.html';
+include 'template/icons.html';
+include 'template/serviceBehorden.html';   
+include 'template/servicetelefon.html';
+include 'template/footer.html';
 ?>
 
 
