@@ -1,9 +1,9 @@
 <?php
 $pageTitle = "Attraktionen | Stadt Stuttgart";
-include 'navbar.php';
-include 'uberschriftAttraktionen.html';
-include 'auflistungAttraktion.html';
-include 'iconsAttraktionen.html';   
-include 'serviceTelefon.html';
-include 'footer.html';
+include 'template/navbar.php';
+include 'template/uberschriftAttraktionen.html';
+include 'template/auflistungAttraktion.html';
+include 'template/iconsAttraktionen.html';   
+include 'template/serviceTelefon.html';
+include 'template/footer.html';
 ?>

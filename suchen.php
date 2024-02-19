@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Suchergenisse | Stadt Stuttgart";
-include 'navbar.php';
+include 'template/navbar.php';
 ?>
 <?php
 // Suchbegriff abrufen
@@ -46,7 +46,7 @@ if (!empty($suchbegriff)) {
 
     foreach ($dateien as $element) {
         $dom = new DOMDocument();
-        @$dom->loadHTML(mb_convert_encoding(file_get_contents($element['datei']), 'HTML-ENTITIES', 'UTF-8'));
+        @$dom->loadHTML(mb_convert_encoding(file_get_contents('template/' . $element['datei']), 'HTML-ENTITIES', 'UTF-8'));
         $xpath = new DOMXPath($dom);
         $abfrage = "//text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ', 'abcdefghijklmnopqrstuvwxyzäöü'), translate('$suchbegriff', 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ', 'abcdefghijklmnopqrstuvwxyzäöü'))]";
         $ergebnisse = $xpath->query($abfrage);
@@ -90,4 +90,4 @@ if (!empty($suchbegriff)) {
     <?php endif; ?>
 </div>
 
-<?php include 'footer.html'; ?>
+<?php include 'template/footer.html'; ?>

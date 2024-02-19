@@ -1,10 +1,10 @@
 <?php
 $pageTitle = "Schlossplatz | Stadt Stuttgart";
-include 'navbar.php';
-include 'carouselSchlossplatz.html';
-include 'uberschriftSchlossplatz.html';
-include 'uberUnsSchlossplatz.html';
-include 'nachrichtenSchlossplatz.html';
-include 'servicetelefon.html';
-include 'footer.html';
+include 'template/navbar.php';
+include 'template/carouselSchlossplatz.html';
+include 'template/uberschriftSchlossplatz.html';
+include 'template/uberUnsSchlossplatz.html';
+include 'template/nachrichtenSchlossplatz.html';
+include 'template/servicetelefon.html';
+include 'template/footer.html';
 ?>

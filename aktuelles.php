@@ -1,8 +1,8 @@
 <?php
 $pageTitle = "Aktuelles | Stadt Stuttgart";
-include 'navbar.php';
-include 'uberschriftAktuelles.html';
-include 'aktuelles.html';
-include 'icons.html';  
-include 'footer.html';
+include 'template/navbar.php';
+include 'template/uberschriftAktuelles.html';
+include 'template/aktuelles.html';
+include 'template/icons.html';  
+include 'template/footer.html';
 ?>
