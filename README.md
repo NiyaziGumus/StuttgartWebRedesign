@@ -3,8 +3,8 @@
 ## Projektvorschau
 Hier eine Vorschau unserer Hauptseite:
 
+![Hauptseite Vorschau](https://github.com/NiyaziGumus/StuttgartWebRedesign/blob/main/img/startseite.gif)
 
-Bitte ersetzen Sie "URL_des_GIF" mit dem tatsächlichen Pfad zu Ihrem GIF.
 
 ## Über das Projekt
 
