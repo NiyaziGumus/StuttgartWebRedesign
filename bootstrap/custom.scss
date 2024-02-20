@@ -1,1 +1,8 @@
+$warning: #ffb300;
+$warning-rgb: 255, 179, 0;
+
+$theme-colors: (
+  "warning": $warning
+);
+
 @import "scss/bootstrap.scss";

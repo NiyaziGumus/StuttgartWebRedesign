@@ -23,85 +23,6 @@ ul {
   list-style-type: none;
 }
 
-/* Navbar Styles */
-.navbar-brand {
-  cursor: pointer;
-}
-
-/* SVG Icon Styles */
-.svg-icon {
-  cursor: pointer;
-}
-
-[data-bs-theme='dark'] .svg-icon {
-  filter: invert(100%);
-}
-
-/* Dynamic Link "a" Styles */
-.dynamic-link {
-  color: #212529 !important;
-}
-
-[data-bs-theme='dark'] .dynamic-link {
-  color: #f8f9fa !important;
-}
-
-/* Arrow Styles */
-.arrow {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 10px solid black;
-  vertical-align: auto;
-}
-
-[data-bs-theme='dark'] .arrow {
-  border-left: 10px solid white;
-}
-
-/* Service Telefon Styles */
-[data-bs-theme='dark'] .bg-warning {
-  background-color: #784800 !important;
-}
-
-[data-bs-theme='dark'] .text-warning {
-  color: #784800 !important;
-}
-
-[data-bs-theme='dark'] .btn-warning {
-  background-color: #784800 !important;
-  border-color: #000 !important;
-}
-
-[data-bs-theme='dark'] .btn-warning:hover {
-  background-color: #5a3600 !important;
-  border-color: #000 !important;
-}
-
-[data-bs-theme='dark'] .btn-warning:active {
-  background-color: #402400 !important;
-  border-color: #000 !important;
-}
-
-[data-bs-theme='dark'] .btn-warning:focus {
-  box-shadow: 0 0 0 0.25rem rgba(120, 72, 0, 0.5) !important;
-}
-
-[data-bs-theme='dark'] .bg-dark {
-  background-color: #000 !important;
-}
-
-/* icons styles */
-
-:root[data-bs-theme='dark'] .fas {
-  color: #fff !important;
-}
-
-.icon:hover p {
-  text-decoration: underline;
-}
 
 
 /* Carousel Styles */
@@ -180,4 +101,132 @@ ul {
 
 .custom-card:hover a {
   text-decoration: underline;
+}
+
+.dynamic-link {
+  color: #212529;
+}
+
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 10px solid black;
+  vertical-align: auto;
+}
+
+/* Weitere Styles */
+.navbar-brand, 
+.svg-icon {
+  cursor: pointer;
+}
+
+.icon:hover p {
+  text-decoration: underline;
+}
+
+/* Light Theme Styles */
+[data-bs-theme='light'] {
+  
+  .infobox {
+  color: #fff;
+  }
+
+  .footer {
+    background-color: #212529;
+    color: #fff;
+  }
+
+}
+
+
+/* Dark Theme Styles */
+[data-bs-theme='dark'] {
+  /* Service Telefon Styles */
+  .bg-warning {
+    background-color: #784800 !important;
+  }
+
+  .text-warning {
+    color: #784800;
+  }
+
+  .btn-warning {
+    background-color: #784800;
+    border-color: #000;
+  }
+
+  .btn-warning:hover {
+    background-color: #5a3600;
+    border-color: #000;
+  }
+
+  .btn-warning:active {
+    background-color: #402400;
+    border-color: #000;
+  }
+
+  .btn-warning:focus {
+    box-shadow: 0 0 0 0.25rem rgba(120, 72, 0, 0.5);
+  }
+  /* Weitere Dark Mode Styles */
+  .arrow {
+    border-left: 10px solid white;
+  }
+
+  .fas {
+    color: #fff;
+  }
+
+  .svg-icon {
+    filter: invert(100%);
+  }
+
+  .dynamic-link {
+    color: #f8f9fa;
+  }
+
+  .footer {
+    background-color: #000;
+  }
+}
+
+
+/* Custom Theme Styles */
+[data-bs-theme="custom"] {
+  .bg-body-tertiary {
+    background-color: var(--bs-warning) !important;
+  }
+  
+  .icon .card {
+    color: var(--bs-warning);
+  }
+
+  .dynamic-link {
+    color: var(--bs-warning);
+  }
+
+  .arrow {
+    border-left: 10px solid var(--bs-warning);
+  }
+
+  .infobox {
+    color: #fff;
+    }
+
+  .footer {
+    background-color: #212529;
+    color: #fff;
+  }
+
+  .btn-indicator.active {
+    background-color: var(--bs-warning);
+  
+  }
+
+  .btn.btn-default {
+    color: var(--bs-warning);
+  }
 }
